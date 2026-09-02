@@ -11,12 +11,12 @@ card.TITLE=profile['username']+'@github'
 card.W=620
 card.KEY='#8ed8f8'
 card.ACCENT='#8ed8f8'
-card.ROW_COLORS={'Name':('#e7c99f','#f4e3c8'),'Contact':('#e7c99f','#e7c99f')}
+card.ROW_COLORS={'Contact':('#62b4d7','#62b4d7')}
 card.PALETTE=['#193546','#24546d','#357c9d','#62b4d7','#8ed8f8','#c5ecfc']
 card.ROWS=[('', '')]+[(key.title(),profile[key]) for key in ['name','location','role','focus','interests','tools','status']]+[('', ''),('Contact',profile['contact'])]
 card.main()
 build_headings.main()
-Path('assets/info-card-contact.svg').write_text(Path('info-card.svg').read_text(encoding='utf-8'),encoding='utf-8')
+Path('assets/info-card-contact-blue.svg').write_text(Path('info-card.svg').read_text(encoding='utf-8'),encoding='utf-8')
 Path('info-card.svg').unlink()
 
 cw,ch=7.2,13.5
@@ -32,4 +32,5 @@ for i,line in enumerate(lines):
     parts.append(f'<g transform="translate(12,{12+i*ch})" clip-path="url(#r{i})"><text y="12" fill="#c9d1d9" xml:space="preserve" textLength="{len(line)*cw}" lengthAdjust="spacingAndGlyphs">{html.escape(line)}</text></g>')
 parts.append('</svg>')
 Path('assets/ascii-portrait.svg').write_text('\n'.join(parts),encoding='utf-8')
+
 
