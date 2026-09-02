@@ -1,7 +1,7 @@
 <div align="center">
 
 <img src="./assets/activity-orbitron.svg" width="740" alt="~/activity">
-<a href="https://github.com/besirevic06#js-contribution-activity-description"><img src="./assets/activity-snake.svg" width="740" alt="A pale blue snake sweeps the contribution grid, then the calendar returns. Click to view GitHub contribution details."></a>
+<a href="#js-contribution-activity-description"><img src="./assets/activity-snake.svg" width="740" alt="A pale blue snake sweeps the contribution grid, then the calendar returns. Click to view GitHub contribution details."></a>
 <br><br>
 <img src="./assets/about-orbitron.svg" width="740" alt="~/about">
 <table>
@@ -13,4 +13,5 @@
 </div>
 
 <!-- Adapted from navi3582/animated-github-profile (MIT). Original license: scripts/LICENSE. -->
+
 
