@@ -3,6 +3,7 @@ import html
 import json
 from pathlib import Path
 import make_info_card as card
+import build_headings
 
 profile=json.loads(Path('profile.json').read_text(encoding='utf-8'))
 lines=Path('assets/portrait.txt').read_text().splitlines()
@@ -13,7 +14,7 @@ card.ACCENT='#8ed8f8'
 card.PALETTE=['#193546','#24546d','#357c9d','#62b4d7','#8ed8f8','#c5ecfc']
 card.ROWS=[('', '')]+[(key.title(),profile[key]) for key in ['name','location','role','focus','interests','tools','status']]
 card.main()
-Path('assets/about-heading.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg" width="740" height="26" viewBox="0 0 740 26"><text x="370" y="18" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="14" fill="#8ed8f8">~/about</text></svg>',encoding='utf-8')
+build_headings.main()
 Path('assets/info-card-ice.svg').write_text(Path('info-card.svg').read_text(encoding='utf-8'),encoding='utf-8')
 Path('info-card.svg').unlink()
 

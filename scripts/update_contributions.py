@@ -5,6 +5,7 @@ import urllib.request
 from html.parser import HTMLParser
 from pathlib import Path
 import render_heatmap_svg as renderer
+import render_activity_svg
 
 class Calendar(HTMLParser):
     def __init__(self):
@@ -46,4 +47,5 @@ renderer.PALETTE=['#17232d','#1b435b','#286a8c','#55a6ce','#8ed8f8','#c5ecfc']
 renderer.main()
 Path('assets/contributions.svg').write_text(Path('contrib-heatmap.svg').read_text(encoding='utf-8'),encoding='utf-8')
 Path('contrib-heatmap.svg').unlink()
+render_activity_svg.main()
 print('Updated exact public contribution counts for',username)

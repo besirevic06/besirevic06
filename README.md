@@ -1,9 +1,9 @@
 <div align="center">
 
-<h3><code>besirevic06@github ~ $ ./contributions.sh</code></h3>
-<img src="./assets/contributions.svg" width="740" alt="GitHub contribution calendar for besirevic06, updated daily.">
+<img src="./assets/activity-orbitron.svg" width="740" alt="~/activity">
+<a href="https://github.com/besirevic06#js-contribution-activity-description"><img src="./assets/activity-snake.svg" width="740" alt="A pale blue snake sweeps the contribution grid, then the calendar returns. Click to view GitHub contribution details."></a>
 <br><br>
-<img src="./assets/about-heading.svg" width="740" alt="~/about">
+<img src="./assets/about-orbitron.svg" width="740" alt="~/about">
 <table>
 <tr>
 <td width="210" align="center" valign="middle"><a href="https://raw.githubusercontent.com/besirevic06/besirevic06/main/assets/ascii-portrait.svg"><img src="./assets/ascii-portrait.svg" width="175" alt="Animated ASCII caricature — click to replay"></a></td>
