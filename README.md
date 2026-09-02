@@ -1,10 +1,15 @@
 <div align="center">
-<picture>
-  <source media="(max-width: 600px)" srcset="./assets/profile-mobile.svg">
-  <img src="./assets/profile.svg" width="960" alt="besirevic06 — Kadir Can. Software Engineering Student in Istanbul, Turkiye. Game design, portrait drawing and music. Learning and experimenting. Tools: Claude Code, Git. Animated ASCII caricature beside a terminal information card.">
-</picture>
+
+<h3><code>besirevic06@github ~ $ ./contributions.sh</code></h3>
+<img src="./assets/contributions.svg" width="740" alt="GitHub contribution calendar for besirevic06, updated daily.">
 <br><br>
-<img src="./assets/contributions.svg" width="960" alt="GitHub contribution calendar for besirevic06, updated daily.">
+<h3><code>besirevic06@github ~ $ whoami</code></h3>
+<table>
+<tr>
+<td width="210" align="center" valign="middle"><img src="./assets/ascii-portrait.svg" width="175" alt="Animated ASCII caricature"></td>
+<td valign="middle"><img src="./assets/info-card.svg" width="490" alt="Kadir Can — Software Engineering Student in Istanbul, Turkiye. Focus: Game Development and Creative Coding. Interests: Interactive Systems. Tools: Claude Code, Codex, Git. Learning and experimenting."></td>
+</tr>
+</table>
 </div>
 
-<!-- Inspired by navi3582/animated-github-profile (MIT); original renderer license: scripts/LICENSE. -->
+<!-- Adapted from navi3582/animated-github-profile (MIT). Original license: scripts/LICENSE. -->
