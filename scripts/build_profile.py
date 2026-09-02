@@ -26,7 +26,7 @@ def build(mobile=False):
     char_w,char_h=3.2,6
     parts.append('<defs>')
     for i in range(len(lines)):
-        parts.append(f'<clipPath id="r{i}"><rect width="400" height="8"><animate attributeName="width" from="0" to="400" dur=".4s" begin="{i*.035:.3f}s" fill="freeze"/></rect></clipPath>')
+        parts.append(f'<clipPath id="r{i}"><rect width="0" height="8"><animate attributeName="width" from="0" to="400" dur=".4s" begin="{i*.035:.3f}s" fill="freeze"/></rect></clipPath>')
     parts.append('</defs>')
     for i,line in enumerate(lines):
         if line.strip():
@@ -47,3 +47,4 @@ def build(mobile=False):
 
 build()
 build(True)
+
