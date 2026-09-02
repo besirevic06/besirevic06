@@ -16,6 +16,7 @@ KEY = "#39d353"  # green keys, GitHub-contribution green
 VAL = "#c9d1d9"
 DIM = "#8b949e"
 ACCENT = "#58a6ff"
+ROW_COLORS = {}
 
 W = 560
 LINE_H = 27
@@ -78,11 +79,13 @@ def main() -> None:
             y += LINE_H * 0.45
             continue
         if key:
+            key_color, value_color = ROW_COLORS.get(key, (KEY, VAL))
+            value_style = ' text-decoration="underline"' if key == 'Contact' else ''
             parts.append(
                 f'<g class="ln" style="animation-delay:{delay:.2f}s">'
-                f'<text x="24" y="{y}"><tspan fill="{KEY}">{html.escape(key)}</tspan>'
+                f'<text x="24" y="{y}"><tspan fill="{key_color}">{html.escape(key)}</tspan>'
                 f'<tspan fill="{DIM}">: </tspan>'
-                f'<tspan x="130" fill="{VAL}">{html.escape(val)}</tspan></text></g>'
+                f'<tspan x="130" fill="{value_color}"{value_style}>{html.escape(val)}</tspan></text></g>'
             )
         else:
             parts.append(

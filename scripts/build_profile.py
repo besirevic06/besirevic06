@@ -11,11 +11,12 @@ card.TITLE=profile['username']+'@github'
 card.W=620
 card.KEY='#8ed8f8'
 card.ACCENT='#8ed8f8'
+card.ROW_COLORS={'Name':('#e7c99f','#f4e3c8'),'Contact':('#e7c99f','#e7c99f')}
 card.PALETTE=['#193546','#24546d','#357c9d','#62b4d7','#8ed8f8','#c5ecfc']
-card.ROWS=[('', '')]+[(key.title(),profile[key]) for key in ['name','location','role','focus','interests','tools','status']]
+card.ROWS=[('', '')]+[(key.title(),profile[key]) for key in ['name','location','role','focus','interests','tools','status']]+[('', ''),('Contact',profile['contact'])]
 card.main()
 build_headings.main()
-Path('assets/info-card-ice.svg').write_text(Path('info-card.svg').read_text(encoding='utf-8'),encoding='utf-8')
+Path('assets/info-card-contact.svg').write_text(Path('info-card.svg').read_text(encoding='utf-8'),encoding='utf-8')
 Path('info-card.svg').unlink()
 
 cw,ch=7.2,13.5
