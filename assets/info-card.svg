@@ -4,13 +4,13 @@
 <circle cx="22" cy="21" r="6" fill="#ff5f57"/><circle cx="42" cy="21" r="6" fill="#febc2e"/><circle cx="62" cy="21" r="6" fill="#28c840"/>
 <text x="310" y="26" text-anchor="middle" fill="#8b949e">besirevic06@github</text>
 <line x1="1" y1="40" x2="619" y2="40" stroke="#30363d"/>
-<g class="ln" style="animation-delay:0.15s"><text x="24" y="72" fill="#58a6ff">besirevic06@github</text><text x="24" y="88" fill="#8b949e">------------------</text></g>
-<g class="ln" style="animation-delay:0.46s"><text x="24" y="118.15"><tspan fill="#39d353">Name</tspan><tspan fill="#8b949e">: </tspan><tspan x="130" fill="#c9d1d9">Kadir Can</tspan></text></g>
-<g class="ln" style="animation-delay:0.61s"><text x="24" y="145.15"><tspan fill="#39d353">Location</tspan><tspan fill="#8b949e">: </tspan><tspan x="130" fill="#c9d1d9">Istanbul, Turkiye</tspan></text></g>
-<g class="ln" style="animation-delay:0.77s"><text x="24" y="172.15"><tspan fill="#39d353">Role</tspan><tspan fill="#8b949e">: </tspan><tspan x="130" fill="#c9d1d9">Software Engineering Student</tspan></text></g>
-<g class="ln" style="animation-delay:0.92s"><text x="24" y="199.15"><tspan fill="#39d353">Focus</tspan><tspan fill="#8b949e">: </tspan><tspan x="130" fill="#c9d1d9">Game Development &amp; Creative Coding</tspan></text></g>
-<g class="ln" style="animation-delay:1.07s"><text x="24" y="226.15"><tspan fill="#39d353">Interests</tspan><tspan fill="#8b949e">: </tspan><tspan x="130" fill="#c9d1d9">Interactive Systems</tspan></text></g>
-<g class="ln" style="animation-delay:1.23s"><text x="24" y="253.15"><tspan fill="#39d353">Tools</tspan><tspan fill="#8b949e">: </tspan><tspan x="130" fill="#c9d1d9">Claude Code, Codex, Git</tspan></text></g>
-<g class="ln" style="animation-delay:1.38s"><text x="24" y="280.15"><tspan fill="#39d353">Status</tspan><tspan fill="#8b949e">: </tspan><tspan x="130" fill="#c9d1d9">Learning &amp; experimenting</tspan></text></g>
-<g class="ln" style="animation-delay:1.68s"><rect x="190" y="313.15" width="30" height="16" fill="#ff7b72"/><rect x="220" y="313.15" width="30" height="16" fill="#ffa657"/><rect x="250" y="313.15" width="30" height="16" fill="#d29922"/><rect x="280" y="313.15" width="30" height="16" fill="#39d353"/><rect x="310" y="313.15" width="30" height="16" fill="#58a6ff"/><rect x="340" y="313.15" width="30" height="16" fill="#bc8cff"/><rect x="370" y="313.15" width="30" height="16" fill="#f778ba"/><rect x="400" y="313.15" width="30" height="16" fill="#c9d1d9"/></g>
+<g class="ln" style="animation-delay:0.15s"><text x="24" y="72" fill="#8ed8f8">besirevic06@github</text><text x="24" y="88" fill="#8b949e">------------------</text></g>
+<g class="ln" style="animation-delay:0.46s"><text x="24" y="118.15"><tspan fill="#8ed8f8">Name</tspan><tspan fill="#8b949e">: </tspan><tspan x="130" fill="#c9d1d9">Kadir Can</tspan></text></g>
+<g class="ln" style="animation-delay:0.61s"><text x="24" y="145.15"><tspan fill="#8ed8f8">Location</tspan><tspan fill="#8b949e">: </tspan><tspan x="130" fill="#c9d1d9">Istanbul, Turkiye</tspan></text></g>
+<g class="ln" style="animation-delay:0.77s"><text x="24" y="172.15"><tspan fill="#8ed8f8">Role</tspan><tspan fill="#8b949e">: </tspan><tspan x="130" fill="#c9d1d9">Software Engineering Student</tspan></text></g>
+<g class="ln" style="animation-delay:0.92s"><text x="24" y="199.15"><tspan fill="#8ed8f8">Focus</tspan><tspan fill="#8b949e">: </tspan><tspan x="130" fill="#c9d1d9">Game Mechanics &amp; Prototyping</tspan></text></g>
+<g class="ln" style="animation-delay:1.07s"><text x="24" y="226.15"><tspan fill="#8ed8f8">Interests</tspan><tspan fill="#8b949e">: </tspan><tspan x="130" fill="#c9d1d9">Social Play &amp; Emergent Gameplay</tspan></text></g>
+<g class="ln" style="animation-delay:1.23s"><text x="24" y="253.15"><tspan fill="#8ed8f8">Tools</tspan><tspan fill="#8b949e">: </tspan><tspan x="130" fill="#c9d1d9">Claude Code, Codex, Git</tspan></text></g>
+<g class="ln" style="animation-delay:1.38s"><text x="24" y="280.15"><tspan fill="#8ed8f8">Status</tspan><tspan fill="#8b949e">: </tspan><tspan x="130" fill="#c9d1d9">Learning through experimentation</tspan></text></g>
+<g class="ln" style="animation-delay:1.68s"><rect x="220" y="313.15" width="30" height="16" fill="#193546"/><rect x="250" y="313.15" width="30" height="16" fill="#24546d"/><rect x="280" y="313.15" width="30" height="16" fill="#357c9d"/><rect x="310" y="313.15" width="30" height="16" fill="#62b4d7"/><rect x="340" y="313.15" width="30" height="16" fill="#8ed8f8"/><rect x="370" y="313.15" width="30" height="16" fill="#c5ecfc"/></g>
 </svg>
