@@ -14,7 +14,7 @@ card.PALETTE=['#193546','#24546d','#357c9d','#62b4d7','#8ed8f8','#c5ecfc']
 card.ROWS=[('', '')]+[(key.title(),profile[key]) for key in ['name','location','role','focus','interests','tools','status']]
 card.main()
 Path('assets/about-heading.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg" width="740" height="26" viewBox="0 0 740 26"><text x="370" y="18" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="14" fill="#8ed8f8">~/about</text></svg>',encoding='utf-8')
-Path('assets/info-card.svg').write_text(Path('info-card.svg').read_text(encoding='utf-8'),encoding='utf-8')
+Path('assets/info-card-ice.svg').write_text(Path('info-card.svg').read_text(encoding='utf-8'),encoding='utf-8')
 Path('info-card.svg').unlink()
 
 cw,ch=7.2,13.5
@@ -30,3 +30,4 @@ for i,line in enumerate(lines):
     parts.append(f'<g transform="translate(12,{12+i*ch})" clip-path="url(#r{i})"><text y="12" fill="#c9d1d9" xml:space="preserve" textLength="{len(line)*cw}" lengthAdjust="spacingAndGlyphs">{html.escape(line)}</text></g>')
 parts.append('</svg>')
 Path('assets/ascii-portrait.svg').write_text('\n'.join(parts),encoding='utf-8')
+
